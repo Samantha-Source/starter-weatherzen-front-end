@@ -9,7 +9,7 @@ function ObservationCreate(){
     const [error, setError] = useState(null);
 
     const [observation, setObservation] = useState({
-        latitute: "",
+        latitude: "",
         longitude: "",
         sky_condition: "",
     });
